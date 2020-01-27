@@ -2,15 +2,78 @@
   "quiz_questions": [
     {
       "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"],
-      "answer": "7"
+      "instruction_text": "What is the order of items in the Product Backlog?",
+      "answer_options": [
+        "The recently added items at the top",
+        "Less valuable and most unclear items at the bottom",
+        "The less clear items at the top",
+        "Alphabetical"
+      ],
+      "answer": "Less valuable and most unclear items at the bottom",
+      "verbose": "The Product Owner is responsible for placing the most valuable and clear items at the top of the Product Backlog.",
+      "category": "Scrum Artifacts"
     },
     {
       "id": 2,
-      "instruction_text": "What's your favorite number?",
-      "answer_options": ["1", "2", "3", "4"],
-      "answer": "4"
+      "instruction_text": "If an inspector determines that one or more aspects of a process deviate outside acceptable limits, when must an adjustment be made?",
+      "answer_options": [
+        "After clarifying all the details with the Product Owner",
+        "As soon as possible to minimize further deviation",
+        "The deviations should be discussed at the Daily Scrum and then an adjustment must be made",
+        "After Scrum Master approval"
+      ],
+      "answer": "As soon as possible to minimize further deviation",
+      "verbose": "If an inspector determines that one or more aspects of a process deviate outside acceptable limits, and that the resulting product will be unacceptable, the process or the material being processed must be adjusted. An adjustment must be made as soon as possible to minimize further deviation.",
+      "category": "Scrum Theory"
+    },
+    {
+      "id": 3,
+      "instruction_text": "Scrum is NOT a process or technique. True or False?",
+      "answer_options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "verbose": "Scrum is not a process, technique, or definitive method. Rather, it is a framework within which you can employ various processes and techniques.",
+      "category": "Scrum Theory"
+    },
+    {
+      "id": 4,
+      "instruction_text": "What is the Sprint Retrospective?",
+      "answer_options": [
+        "It is a meeting where the Development Team synchronizes activities and creates a plan for the next 24 hours",
+        "It is the key inspect and adapt meeting",
+        "It is a meeting to inspect the Increment and adapt the Product Backlog if needed",
+        "It is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint"
+      ],
+      "answer": "It is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint",
+      "verbose": "The Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint.",
+      "category": "Scrum Events"
+    },
+    {
+      "id": 5,
+      "instruction_text": "The Development Team should be able to explain to the Product Owner and Scrum Master how it intends to work as a self-organizing team to accomplish the Sprint Goal and create the anticipated Increment.",
+      "answer_options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "verbose": "By the end of the Sprint Planning, the Development Team should be able to explain to the Product Owner and Scrum Master how it intends to work as a self-organizing team to accomplish the Sprint Goal and create the anticipated Increment.",
+      "category": "Scrum Events"
+    },
+    {
+      "id": 6,
+      "instruction_text": "Who has the authority to cancel the Sprint?",
+      "answer_options": [
+        "The Key Stakeholders",
+        "The Development Team",
+        "The Product Owner and the Scrum Master",
+        "The Scrum Master",
+        "The Product Owner"
+      ],
+      "answer": "The Product Owner",
+      "verbose": "Only the Product Owner has the authority to cancel the Sprint, although he or she may do so under influence from the stakeholders, the Development Team, or the Scrum Master.",
+      "category": "Scrum Events"
     }
   ]
 }
