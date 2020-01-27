@@ -10,7 +10,7 @@ class QuizQuestion extends Component {
             </section>
             <section className="buttons">
               <ul>
-                <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position = 1]}/>
+                <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position - 1]}/>
               </ul>
             </section>
           </main>
